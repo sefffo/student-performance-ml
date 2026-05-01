@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (large CSVs, raw datasets)
+*.csv
+!student_data.csv
+
+# Model / Output artifacts
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Logs
+*.log
+
+# Coverage / Test
+.coverage
+htmlcov/
+.pytest_cache/
